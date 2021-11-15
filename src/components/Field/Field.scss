@@ -1,0 +1,44 @@
+.field {
+  margin: 8px 0;
+  max-width: 400px;
+  width: 100%;
+
+  &.field-error {
+    label {
+      color: red;
+    }
+
+    input,
+    select,
+    textarea {
+      border: 1px solid red;
+    }
+  }
+
+  label {
+    display: block;
+    font-weight: lighter;
+    width: 100%;
+    line-height: 1.6;
+
+    .required {
+      font-weight: bold;
+      color: red;
+    }
+  }
+
+  .error {
+    font-size: 0.8em;
+    color: red;
+  }
+
+  &.field-Checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    label {
+      margin-left: 8px;
+    }
+  }
+}

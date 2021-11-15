@@ -1,0 +1,187 @@
+// Base colors
+$almostblack: #222;
+$blue: #5498d2;
+$brown: #9e552f;
+$cyan: #6cb2eb;
+$gold: #bf8f00;
+$green: #70ad47;
+$indigo: #7154d2;
+$orange: #ed7d31;
+$pink: #d25476;
+$purple: #c561e1;
+$red: #de4e4e;
+$teal: #54d28f;
+$yellow: #ffc000;
+
+// Custom colors
+$body-bg: #000;
+$blue-border: #bfe0ee;
+
+// Deprecated colors
+$brown: #833c0c;
+$crimson: #c00000;
+$darkblue: #002060;
+$darkgreen: #375623;
+$gray: #222b35;
+
+.orange {
+  background-color: $orange;
+
+  &-75 {
+    background-color: rgba($orange, 0.75);
+  }
+  &-50 {
+    background-color: rgba($orange, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($orange, 0.3) !important;
+  }
+}
+
+.yellow {
+  background-color: $yellow;
+
+  &-75 {
+    background-color: rgba($yellow, 0.75) !important;
+  }
+  &-50 {
+    background-color: rgba($yellow, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($yellow, 0.3) !important;
+  }
+}
+
+.green {
+  background-color: $green;
+
+  &-75 {
+    background-color: rgba($green, 0.75);
+  }
+  &-50 {
+    background-color: rgba($green, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($green, 0.3) !important;
+  }
+}
+
+.blue {
+  background-color: $blue;
+
+  &-75 {
+    background-color: rgba($blue, 0.75);
+  }
+  &-50 {
+    background-color: rgba($blue, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($blue, 0.3) !important;
+  }
+}
+
+.purple {
+  background-color: $purple;
+
+  &-75 {
+    background-color: rgba($purple, 0.75);
+  }
+  &-50 {
+    background-color: rgba($purple, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($purple, 0.3) !important;
+  }
+}
+
+.teal {
+  background-color: $teal;
+
+  &-75 {
+    background-color: rgba($teal, 0.75);
+  }
+  &-50 {
+    background-color: rgba($teal, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($teal, 0.3) !important;
+  }
+}
+
+.indigo {
+  background-color: $indigo;
+
+  &-75 {
+    background-color: rgba($indigo, 0.75);
+  }
+  &-50 {
+    background-color: rgba($indigo, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($indigo, 0.3) !important;
+  }
+}
+
+.pink {
+  background-color: $pink;
+
+  &-75 {
+    background-color: rgba($pink, 0.75);
+  }
+  &-50 {
+    background-color: rgba($pink, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($pink, 0.3) !important;
+  }
+}
+
+.red {
+  background-color: $red;
+
+  &-75 {
+    background-color: rgba($red, 0.75);
+  }
+  &-50 {
+    background-color: rgba($red, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($red, 0.3) !important;
+  }
+}
+
+.brown {
+  background-color: $brown;
+
+  &-75 {
+    background-color: rgba($brown, 0.75);
+  }
+  &-50 {
+    background-color: rgba($brown, 0.75);
+  }
+  &-30 {
+    background-color: rgba($brown, 0.3) !important;
+  }
+}
+
+.gold {
+  background-color: $gold !important;
+
+  &-75 {
+    background-color: rgba($gold, 0.75) !important;
+  }
+  &-50 {
+    background-color: rgba($gold, 0.5) !important;
+  }
+  &-30 {
+    background-color: rgba($gold, 0.3) !important;
+  }
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
